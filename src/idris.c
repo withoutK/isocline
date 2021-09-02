@@ -5,6 +5,8 @@
 
 //------------------------------------------------------------------------------
 
+void *null_ptr() { return (((void *)0)); }
+
 bool is_null_ptr(void *p) { return (p == NULL ? true : false); }
 
 char *ptr_string_to_string(void *str) {
